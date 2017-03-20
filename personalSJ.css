@@ -69,10 +69,44 @@ body{
   font-size: 16px;
   color: white;
   justify-content: center;
+  height: 74px;
 }
 
-.link:hover{
-  background-color: #045366;
+
+.github-link{
+  background-image: url('GitHub-Mark-Light-64px.png');
+  width: 64px;
+  height: auto;
+}
+
+.github-link:hover{
+  background-image: url('GitHub-Mark-64px.png');
+  width: 64px;
+  height: auto;
+}
+
+.twitter-link{
+  background-image: url('Twitter_Social_Icon_Circle_White.png');
+  width: 64px;
+  height: auto;
+}
+
+.twitter-link:hover{
+  background-image: url('Twitter_Social_Icon_Circle_Color.png');
+  width: 64px;
+  height: auto;
+}
+
+.linkedin-link{
+  background-image: url('In-White-66px-R.png');
+  width: 64px;
+  height: auto;
+}
+
+.linkedin-link:hover{
+  background-image: url('In-Black-66px-R.png');
+  width: 64px;
+  height: auto;
 }
 
 .name{
